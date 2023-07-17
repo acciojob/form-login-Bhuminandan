@@ -1,4 +1,9 @@
 function getFormvalue() {
-    //Write your code here
+    
+    let f = document.getElementById("firstName").value;
+    let l = document.getElementById("lastName").value;
+
+   alert(f + " " + l);
 
 }
+
